@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#EEA9B8"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_wechat_image"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@color/pink"
+                android:clickable="false"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/p1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="129dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="消息"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_lianxiren"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_friend_image"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@color/pink"
+                android:clickable="false"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/p2" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="155dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="好友"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_pengyouquan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_contact_image"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@color/pink"
+                android:clickable="false"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/p3" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="武器"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_shezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/id_tab_settings_image"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@color/pink"
+                android:clickable="false"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/p4" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

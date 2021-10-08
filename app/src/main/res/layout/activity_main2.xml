@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEA9B8"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/Q_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_weight="1"
+        android:textColor="#BFEFFF"
+        android:text="警卫兵" />
+
+    <TextView
+        android:id="@+id/Q_info"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#EAEAEA"
+        android:layout_weight="1"
+        android:text="全自动冲锋枪。射速快，伤害高，但弹匣小。需要一定练习。
+                      装配增强核心后，大幅缩短换弹时间和开镜时间。" />
+
+    <ImageView
+        android:id="@+id/Q_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/qx" />
+
+    <Button
+        android:id="@+id/B_back"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:alpha="0.5"
+
+        android:layout_weight="1"
+        android:text="返回"
+        android:textSize="20dp"/>
+</LinearLayout>
